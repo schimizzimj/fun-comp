@@ -1,0 +1,18 @@
+From a user's perspective, the program is quite simple 
+in nature. A user enters the charges of two particles 
+and the distance between them. Then, the program will output 
+the electric force (in Newtons).
+
+From a programmer's perspective, the program first simply initializes 
+all of the needed variables for constants and for user inputs. Then, 
+the program asks the user for the charge of the first particle in 
+Coulombs, the charge of the second particle, and the distance between 
+the two particles. Then, the program multiplies k and the charge of 
+the two particles, before dividing by the distance squared to get the 
+electric force. Finally, the program outputs the force to the user.
+
+I tested the program by running various numbers through the program, 
+and doing the same calculations on a calculator as well. Then, I 
+compared the two for each set of numbers. The program has run correctly 
+for every set of numbers run through during testing. However, in instances of 
+long/repeating decimals the program will likely encounter issues.

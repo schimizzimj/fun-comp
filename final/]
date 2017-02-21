@@ -1,0 +1,25 @@
+// board.h
+// Class interface for the Board class
+//
+// Marcus Schimizzi
+// 12/14/16
+
+using namespace std;
+#include "gfxnew.h"
+
+class Board {
+  public:
+    Board();
+    Board(int);
+    ~Board();
+    void play();
+    void drawFrog(int x, int y, char orient);
+    void drawLog(int x, int y);
+    void drawCar(int x, int y);
+    void drawBus(int x, int y);
+
+  private:
+    int win;
+    int lives;
+    char grid[15][15];
+};

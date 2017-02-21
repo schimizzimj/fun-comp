@@ -1,0 +1,25 @@
+		For the last problem of the lab, I made a simple graphing program to graph the high degree polynomial function 
+	y=abs(x^7-14x^5+49x^3-36x). From the user's perspective, the program isn't at all interactive. The user simply sees that this program 
+	declare that it will create a plot of the aforementioned function between x=-3 and x=3. Then the user sees a column of the x values and a 
+	column of the y values as well as a visual representation of the graph in the form of increasing and decreasing numbers of "#" characters. 
+	Then, at the very end, the user sees the program display the value and location of the maximum and minimum. 
+		From a programmer's perspective, the program is a bit more 
+	complicated. It first uses cout to display to the user what it 
+	is going to plot. It then also establishes "x" and "y" 
+	columns. It then sets various needed variables, including 
+	"iChar" (set at 1.5), which is what essentially equals a "#" 
+	character. So, if the y value is 4.5, then there would be 3 
+	"#" to represent that portion of the graph. The program then 
+	uses a FOR loop to cycle through all values of x and plug them 
+	into the equation at each point. The program also uses if 
+	statements to keep track of the maxima and minima as the loop 
+	cycles. Then, the program displays the values for x and y in 
+	columns. It also uses another FOR loop inside to display the 
+	correct number of "#" for each value of x. Finally, at the 
+	end, the program displays the maximum and minumum values and 
+	locations to the user. 
+		The verification process was fairly simple. I simply 
+	graphed the function on a graphing calculator and made sure 
+	the behavior of my model and the calculator's was the same. 
+	Additionally, I also used a calculator to double check that 
+	the maximum and minimum values were also correct.  

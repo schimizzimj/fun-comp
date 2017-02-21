@@ -1,0 +1,7 @@
+Marcus Schimizzi
+
+From a user's perspective, this program simply gives a text menu of several options for them to select to manipulate and use data of ND football wins and losses. For example, they can see the winning percentage for a year, the record for a year, or all years with a certain number of wins. 
+
+From a programming perspective, the main function contains a while loop with a switch case for the user to select what option they want to choose. The first one simply displays the wins and losses for one year by calling the arrays for that year. Operations 2, 3, 5, and 6 use FOR loops to find the years that correspond to the user's request. Then, option four just uses simple math to calculate the winning percentage for a given year. Then, option 7 just exits. 
+
+I checked to see if it was accurate simply by running the program and checking its answers against the arrays.
